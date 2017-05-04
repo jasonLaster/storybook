@@ -35,6 +35,8 @@ if (isBrowser) {
 }
 
 const clientApi = new ClientApi(context);
+window.clientApi = clientApi;
+
 const configApi = new ConfigApi(context);
 
 // do exports
